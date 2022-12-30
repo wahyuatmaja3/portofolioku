@@ -1,0 +1,29 @@
+body {
+    background-color: var(--black);
+}
+
+#ADMIN {
+    width: 100%;
+    height: 100vh;
+}
+
+#ADMIN .row {
+    height: 100%;
+}
+
+.admin-menu {
+    background-color: var(--grey);
+}
+
+.admin-header {
+    font-size: 40px;
+    font-family: var(--f-ocr);
+    font-weight: bold;
+    color: var(--black);
+}
+
+.admin-list .list-item a {
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: none;
+}

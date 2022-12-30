@@ -1,0 +1,131 @@
+/* Navbar Style ===================================================================================================== */
+.navbarme {
+    color: var(--white);
+    height: 100px;
+    padding: 0 70px;
+    font-family: var(--f-ocr);
+    position: sticky;
+    top: 0;
+}
+
+.navbodyme ul li {
+    display: inline;
+    font-family: var(--f-sg);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbodyme ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* Home Section Style ================================================================================================ */
+.container {
+    columns: 1000px auto;
+}
+
+.home-sect {
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+}
+
+.home-sect .home-picture {
+    width: 400px;
+    height: 400px;
+    background-image: url("../img/profile.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home-sect .home-picture p {
+    color: var(--black);
+    font-family: var(--f-pay);
+    text-transform: uppercase;
+    transform: rotate(90deg) translate(85px, 150px);
+    font-size: 135px;
+    letter-spacing: 2px;
+}
+
+.home-sect .home-text {
+    margin-left: -25px;
+}
+
+.home-sect .home-text .home-name {
+    color: var(--white);
+    font-family: var(--f-pay);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.home-sect .home-text .home-name-2 {
+    margin-left: -40px;
+    margin-top: -50px;
+    text-shadow: -2px 2px var(--black);
+}
+
+.home-sect .home-text .home-role {
+    color: var(--black);
+    font-family: var(--f-pay);
+    font-size: 20px;
+    background-color: var(--red-1);
+    padding: 8px 15px;
+    width: max-content;
+    margin-top: -15px;
+}
+
+/* About Section Style ================================================================================================ */
+.about-sect {
+    width: 100%;
+    height: 100vh;
+}
+
+#About .row {
+    height: 100%;
+    columns: 1000px, auto;
+    padding: 0 100px;
+}
+
+#About .row .col {
+    height: 100%;
+}
+
+.about-sect .about-text {
+    height: 100%;
+}
+
+.about-sect .about-text .about-text-header {
+    color: var(--white);
+    font-size: 40px;
+    position: relative;
+}
+
+.about-sect .about-text .about-text-header p {
+    font-family: var(--f-pay);
+    position: relative;
+}
+
+.about-sect .about-text .about-text-header .deco-box {
+    width: 110px;
+    height: 70px;
+    background-color: var(--red-2);
+    left: -40px;
+    position: absolute;
+}
+
+.about-sect .about-text .about-text-desc {
+    color: var(--white);
+    text-indent: 10%;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.about-sect .about-picture {
+    width: 180px;
+    height: 420px;
+    background-image: url(../img/Denji\ wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
